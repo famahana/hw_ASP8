@@ -1,0 +1,11 @@
+C:\Users\famahana\source\repos\Library\Books.Domain\bin\Debug\net8.0\Books.Domain.deps.json
+C:\Users\famahana\source\repos\Library\Books.Domain\bin\Debug\net8.0\Books.Domain.dll
+C:\Users\famahana\source\repos\Library\Books.Domain\bin\Debug\net8.0\Books.Domain.pdb
+C:\Users\famahana\source\repos\Library\Books.Domain\obj\Debug\net8.0\Books.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\famahana\source\repos\Library\Books.Domain\obj\Debug\net8.0\Books.Domain.AssemblyInfoInputs.cache
+C:\Users\famahana\source\repos\Library\Books.Domain\obj\Debug\net8.0\Books.Domain.AssemblyInfo.cs
+C:\Users\famahana\source\repos\Library\Books.Domain\obj\Debug\net8.0\Books.Domain.csproj.CoreCompileInputs.cache
+C:\Users\famahana\source\repos\Library\Books.Domain\obj\Debug\net8.0\Books.Domain.dll
+C:\Users\famahana\source\repos\Library\Books.Domain\obj\Debug\net8.0\refint\Books.Domain.dll
+C:\Users\famahana\source\repos\Library\Books.Domain\obj\Debug\net8.0\Books.Domain.pdb
+C:\Users\famahana\source\repos\Library\Books.Domain\obj\Debug\net8.0\ref\Books.Domain.dll

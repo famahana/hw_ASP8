@@ -1,0 +1,15 @@
+C:\Users\famahana\source\repos\Library\Books.Application\bin\Debug\net8.0\Books.Application.deps.json
+C:\Users\famahana\source\repos\Library\Books.Application\bin\Debug\net8.0\Books.Application.dll
+C:\Users\famahana\source\repos\Library\Books.Application\bin\Debug\net8.0\Books.Application.pdb
+C:\Users\famahana\source\repos\Library\Books.Application\bin\Debug\net8.0\Books.Domain.dll
+C:\Users\famahana\source\repos\Library\Books.Application\bin\Debug\net8.0\Books.Domain.pdb
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.Application.csproj.AssemblyReference.cache
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.Application.AssemblyInfoInputs.cache
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.Application.AssemblyInfo.cs
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.Application.csproj.CoreCompileInputs.cache
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.Ap.1C501BF2.Up2Date
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.Application.dll
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\refint\Books.Application.dll
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.Application.pdb
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\ref\Books.Application.dll
