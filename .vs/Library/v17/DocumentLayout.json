@@ -7,8 +7,75 @@
       "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\dtos\\userdto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\dtos\\userdto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5B0105-4F2E-4224-AE6E-F292F54F1A83}|Books.Domain\\Books.Domain.csproj|c:\\users\\famahana\\source\\repos\\library\\books.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5B0105-4F2E-4224-AE6E-F292F54F1A83}|Books.Domain\\Books.Domain.csproj|solutionrelative:books.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\famahana\\AppData\\Local\\Temp\\cgbolxjf..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\services\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,52 +86,36 @@
       "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\services\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\repositories\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\repositories\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\dtos\\authordto\\authorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\dtos\\authordto\\authorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\books.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\books.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\helpers\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\helpers\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\helpers\\ihashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\helpers\\ihashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\mapping\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\mapping\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\mapping\\authorprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\mapping\\authorprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\helpers\\ihashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\helpers\\ihashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\helpers\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\helpers\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\mapping\\genreprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,28 +126,20 @@
       "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\mapping\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\services\\bookserice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\services\\bookserice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\services\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\services\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\books.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\books.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\services\\bookserice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\services\\bookserice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\repositories\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\repositories\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,20 +150,8 @@
       "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\repositories\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|c:\\users\\famahana\\source\\repos\\library\\books.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A302090B-B691-4C39-9F01-62DD7DE333F5}|Books.Api\\Books.Api.csproj|solutionrelative:books.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|c:\\users\\famahana\\source\\repos\\library\\books.infrastructure\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4255BA29-4CDC-4CA2-B183-99564814A781}|Books.Infrastructure\\Books.Infrastructure.csproj|solutionrelative:books.infrastructure\\data\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\mapping\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\mapping\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\dtos\\authordto\\authorreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -137,10 +168,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\dtos\\userdto\\userreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\dtos\\userdto\\userreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\dtos\\authordto\\authorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|solutionrelative:books.application\\dtos\\authordto\\authorcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6035BC7-0742-41D6-BB42-8BBA16EFDE53}|Books.Application\\Books.Application.csproj|c:\\users\\famahana\\source\\repos\\library\\books.application\\dtos\\bookdtos\\bookcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,10 +190,6 @@
       "RelativeMoniker": "D:0:0:{1D5B0105-4F2E-4224-AE6E-F292F54F1A83}|Books.Domain\\Books.Domain.csproj|solutionrelative:books.domain\\entities\\bookentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D5B0105-4F2E-4224-AE6E-F292F54F1A83}|Books.Domain\\Books.Domain.csproj|c:\\users\\famahana\\source\\repos\\library\\books.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D5B0105-4F2E-4224-AE6E-F292F54F1A83}|Books.Domain\\Books.Domain.csproj|solutionrelative:books.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D5B0105-4F2E-4224-AE6E-F292F54F1A83}|Books.Domain\\Books.Domain.csproj|c:\\users\\famahana\\source\\repos\\library\\books.domain\\entities\\genreentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D5B0105-4F2E-4224-AE6E-F292F54F1A83}|Books.Domain\\Books.Domain.csproj|solutionrelative:books.domain\\entities\\genreentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -185,24 +208,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GenreRepository.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\GenreRepository.cs",
-              "RelativeDocumentMoniker": "Books.Infrastructure\\Repositories\\GenreRepository.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\GenreRepository.cs",
-              "RelativeToolTip": "Books.Infrastructure\\Repositories\\GenreRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\UserDto\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "Books.Application\\DTOs\\UserDto\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\UserDto\\UserLoginDto.cs",
+              "RelativeToolTip": "Books.Application\\DTOs\\UserDto\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T10:50:39.302Z",
+              "WhenOpened": "2026-02-24T15:53:04.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Books.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Books.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T17:18:49.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Books.Application\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T12:18:26.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Books.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Books.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T15:47:21.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "cgbolxjf..sql",
+              "DocumentMoniker": "C:\\Users\\famahana\\AppData\\Local\\Temp\\cgbolxjf..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\cgbolxjf..sql",
+              "ToolTip": "C:\\Users\\famahana\\AppData\\Local\\Temp\\cgbolxjf..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\cgbolxjf..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-24T16:36:26.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Books.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\appsettings.json",
+              "RelativeToolTip": "Books.Api\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-10T15:26:36.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "Books.Application\\Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T12:21:21.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Books.Api\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Books.Api\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T15:55:38.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Books.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Program.cs",
+              "RelativeToolTip": "Books.Api\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwHUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T15:43:41.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Services\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IJwtService.cs",
+              "RelativeToolTip": "Books.Application\\Interfaces\\Services\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T15:52:24.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Books.Infrastructure\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Services\\JwtService.cs",
+              "RelativeToolTip": "Books.Infrastructure\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T15:58:00.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AuthorController.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "Books.Api\\Controllers\\AuthorController.cs",
@@ -215,267 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IHashHelper.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Helpers\\IHashHelper.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Helpers\\IHashHelper.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Helpers\\IHashHelper.cs",
-              "RelativeToolTip": "Books.Application\\Interfaces\\Helpers\\IHashHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T13:19:46.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "Books.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\appsettings.json",
-              "RelativeToolTip": "Books.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-10T15:26:36.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Books.Api",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Books.Api.csproj",
-              "RelativeDocumentMoniker": "Books.Api\\Books.Api.csproj",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Books.Api.csproj",
-              "RelativeToolTip": "Books.Api\\Books.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-21T13:43:36.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Books.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Program.cs",
-              "RelativeToolTip": "Books.Api\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwDMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T15:43:41.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAuthorService.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IAuthorService.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Services\\IAuthorService.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IAuthorService.cs",
-              "RelativeToolTip": "Books.Application\\Interfaces\\Services\\IAuthorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T12:30:57.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "Books.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T12:36:35.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IBookService.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Services\\IBookService.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IBookService.cs",
-              "RelativeToolTip": "Books.Application\\Interfaces\\Services\\IBookService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T15:27:38.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGenreService.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IGenreService.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Services\\IGenreService.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IGenreService.cs",
-              "RelativeToolTip": "Books.Application\\Interfaces\\Services\\IGenreService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T12:31:07.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\BookRepository.cs",
-              "RelativeDocumentMoniker": "Books.Infrastructure\\Repositories\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\BookRepository.cs",
-              "RelativeToolTip": "Books.Infrastructure\\Repositories\\BookRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T14:06:27.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Books.Api\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Books.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T17:18:49.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthorProfile.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\AuthorProfile.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Mapping\\AuthorProfile.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\AuthorProfile.cs",
-              "RelativeToolTip": "Books.Application\\Mapping\\AuthorProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T14:58:25.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IUserService.cs",
-              "RelativeToolTip": "Books.Application\\Interfaces\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T12:21:21.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GenreProfile.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\GenreProfile.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Mapping\\GenreProfile.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\GenreProfile.cs",
-              "RelativeToolTip": "Books.Application\\Mapping\\GenreProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T14:57:40.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\UserProfile.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Mapping\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\UserProfile.cs",
-              "RelativeToolTip": "Books.Application\\Mapping\\UserProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T12:26:12.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Books.Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Books.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T13:07:21.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Repositories\\IBookRepository.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IBookRepository.cs",
-              "RelativeToolTip": "Books.Application\\Interfaces\\Repositories\\IBookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T13:31:45.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AuthorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "RelativeDocumentMoniker": "Books.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "RelativeToolTip": "Books.Infrastructure\\Repositories\\AuthorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T10:50:52.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HashHelper.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Helpers\\HashHelper.cs",
-              "RelativeDocumentMoniker": "Books.Infrastructure\\Helpers\\HashHelper.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Helpers\\HashHelper.cs",
-              "RelativeToolTip": "Books.Infrastructure\\Helpers\\HashHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T13:28:15.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GenreService.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\GenreService.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Services\\GenreService.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\GenreService.cs",
-              "RelativeToolTip": "Books.Application\\Services\\GenreService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T14:01:15.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AuthorService.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\AuthorService.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Services\\AuthorService.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\AuthorService.cs",
-              "RelativeToolTip": "Books.Application\\Services\\AuthorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T14:01:26.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "GenreController.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Controllers\\GenreController.cs",
               "RelativeDocumentMoniker": "Books.Api\\Controllers\\GenreController.cs",
@@ -488,46 +377,152 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IGenreRepository.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IGenreRepository.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Repositories\\IGenreRepository.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IGenreRepository.cs",
-              "RelativeToolTip": "Books.Application\\Interfaces\\Repositories\\IGenreRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Books.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Books.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T09:33:34.993Z",
+              "WhenOpened": "2026-02-21T13:07:21.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Books.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwDEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T12:36:35.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Configuration\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Books.Infrastructure\\Configuration\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Configuration\\JwtSettings.cs",
+              "RelativeToolTip": "Books.Infrastructure\\Configuration\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T16:00:49.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "Books.Application\\Interfaces\\Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T12:18:26.797Z",
-              "EditorCaption": ""
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Books.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\appsettings.Development.json",
+              "RelativeToolTip": "Books.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-24T15:47:44.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Books.Api\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Books.Api\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "Books.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "Books.Infrastructure\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T15:55:38.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T10:50:52.575Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "BookProfile.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\BookProfile.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Mapping\\BookProfile.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\BookProfile.cs",
+              "RelativeToolTip": "Books.Application\\Mapping\\BookProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:53:55.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IHashHelper.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Helpers\\IHashHelper.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Helpers\\IHashHelper.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Helpers\\IHashHelper.cs",
+              "RelativeToolTip": "Books.Application\\Interfaces\\Helpers\\IHashHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:19:46.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthorCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\AuthorDto\\AuthorCreateDto.cs",
+              "RelativeDocumentMoniker": "Books.Application\\DTOs\\AuthorDto\\AuthorCreateDto.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\AuthorDto\\AuthorCreateDto.cs",
+              "RelativeToolTip": "Books.Application\\DTOs\\AuthorDto\\AuthorCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T08:54:28.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IAuthorService.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Services\\IAuthorService.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IAuthorService.cs",
+              "RelativeToolTip": "Books.Application\\Interfaces\\Services\\IAuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:30:57.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IGenreService.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IGenreService.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Services\\IGenreService.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IGenreService.cs",
+              "RelativeToolTip": "Books.Application\\Interfaces\\Services\\IGenreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:31:07.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Services\\IBookService.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Services\\IBookService.cs",
+              "RelativeToolTip": "Books.Application\\Interfaces\\Services\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T15:27:38.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HashHelper.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Helpers\\HashHelper.cs",
+              "RelativeDocumentMoniker": "Books.Infrastructure\\Helpers\\HashHelper.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Helpers\\HashHelper.cs",
+              "RelativeToolTip": "Books.Infrastructure\\Helpers\\HashHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:28:15.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "IAuthorRepository.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IAuthorRepository.cs",
               "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Repositories\\IAuthorRepository.cs",
@@ -535,25 +530,143 @@
               "RelativeToolTip": "Books.Application\\Interfaces\\Repositories\\IAuthorRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T09:33:19.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T09:33:19.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Books.Infrastructure\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "Books.Infrastructure\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T14:06:27.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\AuthorService.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Services\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\AuthorService.cs",
+              "RelativeToolTip": "Books.Application\\Services\\AuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T14:01:26.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GenreProfile.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\GenreProfile.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Mapping\\GenreProfile.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\GenreProfile.cs",
+              "RelativeToolTip": "Books.Application\\Mapping\\GenreProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:57:40.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Mapping\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\UserProfile.cs",
+              "RelativeToolTip": "Books.Application\\Mapping\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:26:12.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "BookSerice.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\BookSerice.cs",
               "RelativeDocumentMoniker": "Books.Application\\Services\\BookSerice.cs",
               "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\BookSerice.cs",
               "RelativeToolTip": "Books.Application\\Services\\BookSerice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T15:33:26.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T15:33:26.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
+              "Title": "GenreService.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\GenreService.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Services\\GenreService.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Services\\GenreService.cs",
+              "RelativeToolTip": "Books.Application\\Services\\GenreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T14:01:15.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthorProfile.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\AuthorProfile.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Mapping\\AuthorProfile.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\AuthorProfile.cs",
+              "RelativeToolTip": "Books.Application\\Mapping\\AuthorProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:58:25.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Books.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Books.Api.csproj",
+              "RelativeDocumentMoniker": "Books.Api\\Books.Api.csproj",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Books.Api.csproj",
+              "RelativeToolTip": "Books.Api\\Books.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-21T13:43:36.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "Books.Infrastructure\\Repositories\\GenreRepository.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Repositories\\GenreRepository.cs",
+              "RelativeToolTip": "Books.Infrastructure\\Repositories\\GenreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T10:50:39.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Repositories\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IBookRepository.cs",
+              "RelativeToolTip": "Books.Application\\Interfaces\\Repositories\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T13:31:45.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IGenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IGenreRepository.cs",
+              "RelativeDocumentMoniker": "Books.Application\\Interfaces\\Repositories\\IGenreRepository.cs",
+              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Interfaces\\Repositories\\IGenreRepository.cs",
+              "RelativeToolTip": "Books.Application\\Interfaces\\Repositories\\IGenreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T09:33:34.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "LibraryDbContext.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Data\\LibraryDbContext.cs",
               "RelativeDocumentMoniker": "Books.Infrastructure\\Data\\LibraryDbContext.cs",
@@ -561,12 +674,11 @@
               "RelativeToolTip": "Books.Infrastructure\\Data\\LibraryDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T13:59:22.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T13:59:22.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "AuthorReadDto.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\AuthorDto\\AuthorReadDto.cs",
               "RelativeDocumentMoniker": "Books.Application\\DTOs\\AuthorDto\\AuthorReadDto.cs",
@@ -574,12 +686,11 @@
               "RelativeToolTip": "Books.Application\\DTOs\\AuthorDto\\AuthorReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T08:54:42.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T08:54:42.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "BookReadDto.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\BookDTOS\\BookReadDto.cs",
               "RelativeDocumentMoniker": "Books.Application\\DTOs\\BookDTOS\\BookReadDto.cs",
@@ -587,12 +698,11 @@
               "RelativeToolTip": "Books.Application\\DTOs\\BookDTOS\\BookReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T13:10:11.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T13:10:11.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "GenreReadDto.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\GenreDto\\GenreReadDto.cs",
               "RelativeDocumentMoniker": "Books.Application\\DTOs\\GenreDto\\GenreReadDto.cs",
@@ -600,25 +710,23 @@
               "RelativeToolTip": "Books.Application\\DTOs\\GenreDto\\GenreReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T08:55:11.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T08:55:11.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "UserReadDto.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\UserDto\\UserReadDto.cs",
               "RelativeDocumentMoniker": "Books.Application\\DTOs\\UserDto\\UserReadDto.cs",
               "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\UserDto\\UserReadDto.cs",
               "RelativeToolTip": "Books.Application\\DTOs\\UserDto\\UserReadDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T12:25:23.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T12:25:23.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "GenreCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\GenreDto\\GenreCreateDto.cs",
               "RelativeDocumentMoniker": "Books.Application\\DTOs\\GenreDto\\GenreCreateDto.cs",
@@ -626,12 +734,11 @@
               "RelativeToolTip": "Books.Application\\DTOs\\GenreDto\\GenreCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T08:55:02.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T08:55:02.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "UserCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\UserDto\\UserCreateDto.cs",
               "RelativeDocumentMoniker": "Books.Application\\DTOs\\UserDto\\UserCreateDto.cs",
@@ -639,12 +746,11 @@
               "RelativeToolTip": "Books.Application\\DTOs\\UserDto\\UserCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T12:25:32.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T12:25:32.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Domain\\Entities\\UserEntity.cs",
               "RelativeDocumentMoniker": "Books.Domain\\Entities\\UserEntity.cs",
@@ -652,12 +758,11 @@
               "RelativeToolTip": "Books.Domain\\Entities\\UserEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:45:06.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T15:45:06.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "BookEntity.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Domain\\Entities\\BookEntity.cs",
               "RelativeDocumentMoniker": "Books.Domain\\Entities\\BookEntity.cs",
@@ -665,38 +770,11 @@
               "RelativeToolTip": "Books.Domain\\Entities\\BookEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T12:31:00.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T12:31:00.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "BookProfile.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\BookProfile.cs",
-              "RelativeDocumentMoniker": "Books.Application\\Mapping\\BookProfile.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Mapping\\BookProfile.cs",
-              "RelativeToolTip": "Books.Application\\Mapping\\BookProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T14:53:55.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Domain\\Enums\\UserRole.cs",
-              "RelativeDocumentMoniker": "Books.Domain\\Enums\\UserRole.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Domain\\Enums\\UserRole.cs",
-              "RelativeToolTip": "Books.Domain\\Enums\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T15:47:21.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "BookCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\BookDTOS\\BookCreateDto.cs",
               "RelativeDocumentMoniker": "Books.Application\\DTOs\\BookDTOS\\BookCreateDto.cs",
@@ -704,25 +782,11 @@
               "RelativeToolTip": "Books.Application\\DTOs\\BookDTOS\\BookCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T13:09:02.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T13:09:02.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AuthorCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\AuthorDto\\AuthorCreateDto.cs",
-              "RelativeDocumentMoniker": "Books.Application\\DTOs\\AuthorDto\\AuthorCreateDto.cs",
-              "ToolTip": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\DTOs\\AuthorDto\\AuthorCreateDto.cs",
-              "RelativeToolTip": "Books.Application\\DTOs\\AuthorDto\\AuthorCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T08:54:28.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "GenreEntity.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Domain\\Entities\\GenreEntity.cs",
               "RelativeDocumentMoniker": "Books.Domain\\Entities\\GenreEntity.cs",
@@ -730,12 +794,11 @@
               "RelativeToolTip": "Books.Domain\\Entities\\GenreEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T12:28:52.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T12:28:52.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "AuthorEntity.cs",
               "DocumentMoniker": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Domain\\Entities\\AuthorEntity.cs",
               "RelativeDocumentMoniker": "Books.Domain\\Entities\\AuthorEntity.cs",
@@ -743,12 +806,11 @@
               "RelativeToolTip": "Books.Domain\\Entities\\AuthorEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T12:33:00.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T12:33:00.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 49,
               "Title": "eowbs2on..sql",
               "DocumentMoniker": "C:\\Users\\famahana\\AppData\\Local\\Temp\\eowbs2on..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\eowbs2on..sql",

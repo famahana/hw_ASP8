@@ -17,6 +17,7 @@ namespace Books.Application.Interfaces.Services
         Task<string> CreateUserAsync(UserCreateDto dto);
         Task<ICollection<UserReadDto>> GetAllUserAsync();
         Task<UserReadDto?> GetByEmailUserAsync(string email);
+        Task<string> LoginAsync(UserLoginDto dto);
 
     }
 }

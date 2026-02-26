@@ -177,3 +177,6 @@ C:\Users\famahana\source\repos\Library\Books.Api\obj\Debug\net8.0\Books.Api.genr
 C:\Users\famahana\source\repos\Library\Books.Api\obj\Debug\net8.0\ref\Books.Api.dll
 C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\Books.Api.staticwebassets.runtime.json
+C:\Users\famahana\source\repos\Library\Books.Api\obj\Debug\net8.0\Books.Api.sourcelink.json
+C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -13,3 +13,4 @@ C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.
 C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\refint\Books.Application.dll
 C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.Application.pdb
 C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\ref\Books.Application.dll
+C:\Users\famahana\source\repos\Library\Books.Application\obj\Debug\net8.0\Books.Application.sourcelink.json

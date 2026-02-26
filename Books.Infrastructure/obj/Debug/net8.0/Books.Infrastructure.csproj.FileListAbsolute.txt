@@ -17,3 +17,4 @@ C:\Users\famahana\source\repos\Library\Books.Infrastructure\obj\Debug\net8.0\ref
 C:\Users\famahana\source\repos\Library\Books.Infrastructure\obj\Debug\net8.0\Books.Infrastructure.pdb
 C:\Users\famahana\source\repos\Library\Books.Infrastructure\obj\Debug\net8.0\Books.Infrastructure.genruntimeconfig.cache
 C:\Users\famahana\source\repos\Library\Books.Infrastructure\obj\Debug\net8.0\ref\Books.Infrastructure.dll
+C:\Users\famahana\source\repos\Library\Books.Infrastructure\obj\Debug\net8.0\Books.Infrastructure.sourcelink.json
