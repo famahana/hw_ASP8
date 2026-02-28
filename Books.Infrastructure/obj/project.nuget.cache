@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9KqhEokVUpE=",
+  "dgSpecHash": "6uuNxcnhtaw=",
   "success": true,
   "projectFilePath": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Infrastructure\\Books.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -48,6 +48,8 @@
     "C:\\Users\\famahana\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
+    "C:\\Users\\famahana\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512",
+    "C:\\Users\\famahana\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\9.0.0\\pomelo.entityframeworkcore.mysql.9.0.0.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",

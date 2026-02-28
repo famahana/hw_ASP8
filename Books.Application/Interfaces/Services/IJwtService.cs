@@ -1,4 +1,5 @@
 ﻿using Books.Application.DTOs.UserDto;
+using Books.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,6 @@ namespace Books.Application.Interfaces.Services
     public interface IJwtService
     {
         string GenerateAccessToken(UserLoginDto userLoginDto, string role);
+        RefreshTokenEntity GenerateRefreshToken(string ipAdress);
     }
 }

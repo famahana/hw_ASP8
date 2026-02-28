@@ -81,71 +81,11 @@
         }
       }
     },
-    "/api/User/login": {
-      "post": {
-        "tags": [
-          "User"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserLoginDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserLoginDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserLoginDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/User": {
       "get": {
         "tags": [
           "User"
         ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "User"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserCreateDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserCreateDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserCreateDto"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
@@ -200,42 +140,6 @@
           "genreId": {
             "type": "integer",
             "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "UserCreateDto": {
-        "required": [
-          "email"
-        ],
-        "type": "object",
-        "properties": {
-          "email": {
-            "minLength": 1,
-            "type": "string",
-            "format": "email"
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UserLoginDto": {
-        "required": [
-          "email"
-        ],
-        "type": "object",
-        "properties": {
-          "email": {
-            "minLength": 1,
-            "type": "string",
-            "format": "email"
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false

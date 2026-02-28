@@ -105,6 +105,40 @@ namespace Books.Infrastructure.Migrations
                     b.ToTable("Genres");
                 });
 
+            modelBuilder.Entity("Books.Domain.Entities.RefreshTokenEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Expires")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IpAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsRevoked")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("refreshTokens");
+                });
+
             modelBuilder.Entity("Books.Domain.Entities.UserEntity", b =>
                 {
                     b.Property<Guid>("Id")
@@ -162,9 +196,25 @@ namespace Books.Infrastructure.Migrations
                     b.Navigation("Genre");
                 });
 
+            modelBuilder.Entity("Books.Domain.Entities.RefreshTokenEntity", b =>
+                {
+                    b.HasOne("Books.Domain.Entities.UserEntity", "User")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Books.Domain.Entities.GenreEntity", b =>
                 {
                     b.Navigation("Books");
+                });
+
+            modelBuilder.Entity("Books.Domain.Entities.UserEntity", b =>
+                {
+                    b.Navigation("RefreshTokens");
                 });
 #pragma warning restore 612, 618
         }

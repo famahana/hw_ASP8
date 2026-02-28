@@ -24,6 +24,7 @@ namespace Books.Domain.Entities
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public bool IsActive { get; set; } = true;
+        public ICollection<RefreshTokenEntity> RefreshTokens { get; set; }
 
     }
 }

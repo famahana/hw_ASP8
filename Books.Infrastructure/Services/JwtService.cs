@@ -1,5 +1,6 @@
 ﻿using Books.Application.DTOs.UserDto;
 using Books.Application.Interfaces.Services;
+using Books.Domain.Entities;
 using Books.Infrastructure.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -8,6 +9,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -45,6 +47,22 @@ namespace Books.Infrastructure.Services
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public RefreshTokenEntity GenerateRefreshToken(string ipAdress)
+        {
+            var randomBytes = new byte[64]; // 512 біт
+
+            using var rng = RandomNumberGenerator.Create();
+            rng.GetBytes(randomBytes);
+
+            return new RefreshTokenEntity
+            {
+                Token = Convert.ToBase64String(randomBytes),
+                Expires = DateTime.UtcNow.AddDays(7),
+                Created = DateTime.UtcNow,
+            };
+
         }
     }
 }

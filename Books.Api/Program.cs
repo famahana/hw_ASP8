@@ -31,9 +31,15 @@ namespace Books.Api
             builder.Services.Configure<JwtSettings>(
                 configuration.GetSection("Jwt"));
             builder.Services.AddDbContext<LibraryDbContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-            });
+      options.UseMySql(
+          configuration.GetConnectionString("ConnectionToMySql"),
+          ServerVersion.AutoDetect(
+              configuration.GetConnectionString("ConnectionToMySql")
+          )));
+            //builder.Services.AddDbContext<LibraryDbContext>(options =>
+            //{
+            //    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            //});
 
             builder.Services.AddAutoMapper(
                 _ => { }, //пустий конфігураційний делегат.

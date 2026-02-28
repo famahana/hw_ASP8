@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Books.Infrastructure.Migrations
 {
     [DbContext(typeof(LibraryDbContext))]
-    [Migration("20260217155350_CreateUser")]
-    partial class CreateUser
+    [Migration("20260226171538_NameMigr1")]
+    partial class NameMigr1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -69,6 +69,11 @@ namespace Books.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime?>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("SYSDATETIME()");
+
                     b.Property<int>("GenreId")
                         .HasColumnType("int");
 
@@ -101,6 +106,40 @@ namespace Books.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Genres");
+                });
+
+            modelBuilder.Entity("Books.Domain.Entities.RefreshTokenEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Expires")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IpAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsRevoked")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("refreshTokens");
                 });
 
             modelBuilder.Entity("Books.Domain.Entities.UserEntity", b =>
@@ -160,9 +199,25 @@ namespace Books.Infrastructure.Migrations
                     b.Navigation("Genre");
                 });
 
+            modelBuilder.Entity("Books.Domain.Entities.RefreshTokenEntity", b =>
+                {
+                    b.HasOne("Books.Domain.Entities.UserEntity", "User")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Books.Domain.Entities.GenreEntity", b =>
                 {
                     b.Navigation("Books");
+                });
+
+            modelBuilder.Entity("Books.Domain.Entities.UserEntity", b =>
+                {
+                    b.Navigation("RefreshTokens");
                 });
 #pragma warning restore 612, 618
         }
