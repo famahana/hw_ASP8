@@ -180,3 +180,5 @@ C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\BCrypt.Net-Nex
 C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\Books.Api.staticwebassets.runtime.json
 C:\Users\famahana\source\repos\Library\Books.Api\obj\Debug\net8.0\Books.Api.sourcelink.json
 C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

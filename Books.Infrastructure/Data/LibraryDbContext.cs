@@ -21,11 +21,26 @@ namespace Books.Infrastructure.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<UserEntity>().HasIndex(u => u.Email).IsUnique();
-            modelBuilder.Entity<BookEntity>()
+            
+            if (Database.IsMySql())
+            {
+                modelBuilder.Entity<BookEntity>()
                 .Property(b => b.CreatedAt)
-                .HasDefaultValueSql("SYSDATETIME()")
-                .IsRequired(false);
+                .HasColumnType("datetime(6)")        // точность микросекунд
+                .HasDefaultValueSql("CURRENT_TIMESTAMP(6)")
+                .ValueGeneratedOnAdd();
+            }
+            else if (Database.IsSqlServer())
+            {
+                modelBuilder.Entity<BookEntity>()
+                    .Property(b => b.CreatedAt)
+                    .HasDefaultValueSql("SYSDATETIME()");
+            }
+            modelBuilder.Entity<UserEntity>().HasIndex(u => u.Email).IsUnique();
+            //modelBuilder.Entity<BookEntity>()
+            //    .Property(b => b.CreatedAt)
+            //    .HasDefaultValueSql("SYSDATETIME()")
+            //    .IsRequired(false);
         }
         
     }
