@@ -8,9 +8,6 @@ namespace Books.Application.DTOs.GenreDto
 {
     public class GenreCreateDto
     {
-       
         public string Title { get; set; } = string.Empty;
-
-        public ICollection<int>? BookIds { get; set; }
     }
 }

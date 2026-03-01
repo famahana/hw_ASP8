@@ -14,17 +14,6 @@ namespace Books.Application.DTOs.AuthorDto
         public string Name { get; set; } = string.Empty;
         public string Surname { get; set; } = string.Empty;
         public ICollection<int>? BookIds { get; set; }
-        public AuthorReadDto()
-        {
-            
-
-        }
-        public AuthorReadDto(AuthorEntity author)
-        {
-            Id = author.Id;
-            Name = author.Name;
-            Surname = author.Surname;
-            BookIds = author.Books == null ?[] : author.Books.Select(book=>book.Id).ToList();
-        }
+        
     }
 }

@@ -11,18 +11,6 @@ namespace Books.Application.DTOs.GenreDto
     {
         public int Id { get; set; }
         public string Title { get; set; } = string.Empty;
-
         public ICollection<int>? BookIds { get; set; }
-        public GenreReadDto()
-        {
-            
-        }
-        public GenreReadDto(GenreEntity genre)
-        {
-            Id = genre.Id;
-            Title = genre.Title;
-            BookIds = genre.Books == null ? [] : genre.Books.Select(book => book.Id).ToList();
-
-        }
     }
 }

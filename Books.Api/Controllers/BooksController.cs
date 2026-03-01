@@ -24,7 +24,6 @@ namespace Books.Api.Controllers
             var book = await _bookService.GetBookByIdAsync(id);
             return Ok(book);    
         }
-        [Authorize(Roles ="Admin")]
         [HttpPost]
         public async Task<IActionResult> AddBook([FromBody] BookCreateDto bookDto)
         {

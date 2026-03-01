@@ -17,74 +17,50 @@ namespace Books.Infrastructure.Repositories
         {
             _libraryDbContext = context;
         }
-        private async Task <ICollection<BookEntity>> GetBooksAsync(ICollection<int>bookIds)
+        public async Task<int?> AddAuthorAsync(AuthorEntity author)
         {
-            var books = await _libraryDbContext.Books.Where(b=>bookIds.Contains(b.Id)).ToListAsync();
-            if(books.Count != bookIds.Count)
-            {
-                throw new Exception("Some books not found");
-            }
-            return books;
-        }
-        public async Task<int?> AddAuthorAsync(AuthorEntity author, ICollection<int>? bookIds)
-        {
-            if(bookIds != null)
-            {
-                author.Books = await GetBooksAsync(bookIds);
-            }
-            _libraryDbContext.Authors.Add(author);  
+            
+            await _libraryDbContext.Authors.AddAsync(author);  
             await _libraryDbContext.SaveChangesAsync();
             return author.Id;
             
         }
 
-        public async Task<bool?> DeleteAuthorAsync(int AuthorId)
-        {
-            var author = await _libraryDbContext.Authors
-                .Include(a => a.Books)
-                .SingleOrDefaultAsync(a => a.Id == AuthorId);
-            if(author == null)
+        public async Task<int?> DeleteAuthorAsync(int AuthorId)
+        { 
+            var author = await _libraryDbContext.Authors.FirstOrDefaultAsync(a => a.Id == AuthorId);
+            if (author == null)
             {
                 return null;
             }
-            author.Books.Clear();
             _libraryDbContext.Authors.Remove(author);
-            await _libraryDbContext .SaveChangesAsync();
-            return true;
+            await _libraryDbContext.SaveChangesAsync();
+            return author.Id;
         }
 
         public async Task<ICollection<AuthorEntity>> getAllAuthorAsync()
         {
-            return await _libraryDbContext.Authors
-               .Include(b => b.Books)
-               .ToListAsync();
+            return await _libraryDbContext.Authors.ToListAsync();
+               
         }
 
         public async Task<AuthorEntity> GetAuthorByIdAsync(int id)
         {
-            return await _libraryDbContext.Authors
-                .Include(a => a.Books)
-                .SingleOrDefaultAsync(a => a.Id == id);
+            return await _libraryDbContext.Authors.FirstOrDefaultAsync(a => a.Id == id);
+                
         }
 
-        public async Task<bool?> UpdateAuthorAsync(int authorId, AuthorEntity updatedAuthor, ICollection<int>? bookIds)
+        public async Task<int?> UpdateAuthorAsync(int authorId, AuthorEntity updatedAuthor)
         {
-            var author = await _libraryDbContext.Authors
-                .Include(a => a.Books)
-                .SingleOrDefaultAsync(a => a.Id == authorId);
+            var author = await _libraryDbContext.Authors.FirstOrDefaultAsync(a => a.Id == authorId);
             if(author == null)
             {
                 return null;
             }
             author.Name = updatedAuthor.Name;
             author.Surname = updatedAuthor.Surname;
-            if(bookIds != null)
-            {
-                var books = await GetBooksAsync(bookIds);
-                author.Books = books;
-            }
             await _libraryDbContext.SaveChangesAsync();
-            return true;
+            return author.Id;
         }
     }
 }

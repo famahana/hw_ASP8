@@ -17,73 +17,45 @@ namespace Books.Infrastructure.Repositories
         {
             _libraryDbContext = context;
         }
-        
-        private async Task<ICollection<BookEntity>> GetBooksAsync(ICollection<int> bookIds)
+        public async Task<int?> AddGenreAsync(GenreEntity genre)
         {
-            var books = await _libraryDbContext.Books.Where(b => bookIds.Contains(b.Id)).ToListAsync();
-            if (books.Count != bookIds.Count)
-            {
-                throw new Exception("Some books not found");
-            }
-            return books;
-        }
-        public async Task<int?> AddGenreAsync(GenreEntity genre, ICollection<int>? bookIds)
-        {
-            if (bookIds != null)
-            {
-                genre.Books = await GetBooksAsync(bookIds);
-            }
             _libraryDbContext.Genres.Add(genre);
             await _libraryDbContext.SaveChangesAsync();
             return genre.Id;
         }
 
-        public async Task<bool?> DeleteGenreAsync(int GenreId)
+        public async Task<int?> DeleteGenreAsync(int GenreId)
         {
-            var genre = await _libraryDbContext.Genres
-                .Include(g => g.Books)
-                .SingleOrDefaultAsync(g => g.Id == GenreId);
+            var genre = await _libraryDbContext.Genres.FirstOrDefaultAsync(g => g.Id == GenreId);
             if (genre == null)
             {
                 return null;
             }
-            genre.Books.Clear();
             _libraryDbContext.Genres.Remove(genre);
             await _libraryDbContext.SaveChangesAsync();
-            return true;
+            return genre.Id;
         }
 
         public async Task<ICollection<GenreEntity>> getAllGenreAsync()
         {
-            return await _libraryDbContext.Genres
-               .Include(g=>g.Books)
-               .ToListAsync();
+            return await _libraryDbContext.Genres.ToListAsync();
         }
 
         public async Task<GenreEntity> GetGenreByIdAsync(int id)
         {
-            return await _libraryDbContext.Genres
-                .Include(g => g.Books)
-                .SingleOrDefaultAsync(g => g.Id == id);
+            return await _libraryDbContext.Genres.FirstOrDefaultAsync(g => g.Id == id);
         }
 
-        public async Task<bool?> UpdateGenreAsync(int GenreId, GenreEntity genre, ICollection<int>? bookIds)
+        public async Task<int?> UpdateGenreAsync(int GenreId, GenreEntity genre)
         {
-            var genres = await _libraryDbContext.Genres
-                .Include(g => g.Books)
-                .SingleOrDefaultAsync(g => g.Id == GenreId);
+            var genres = await _libraryDbContext.Genres.FirstOrDefaultAsync(g => g.Id == GenreId);
             if (genres == null)
             {
                 return null;
             }
             genres.Title = genre.Title;
-            if (bookIds != null)
-            {
-                var books = await GetBooksAsync(bookIds);
-                genres.Books = books;
-            }
             await _libraryDbContext.SaveChangesAsync();
-            return true;
+            return genres.Id;
         }
     }
 }
