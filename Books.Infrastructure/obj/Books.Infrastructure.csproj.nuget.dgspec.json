@@ -204,6 +204,10 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.5, )"

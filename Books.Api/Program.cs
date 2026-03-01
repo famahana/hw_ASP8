@@ -2,7 +2,9 @@ using Books.Application.Interfaces.Helpers;
 using Books.Application.Interfaces.Repositories;
 using Books.Application.Interfaces.Services;
 using Books.Application.Mapping;
+using Books.Application.Query.Country;
 using Books.Application.Services;
+using Books.Infrastructure.Command.Country;
 using Books.Infrastructure.Configuration;
 using Books.Infrastructure.Data;
 using Books.Infrastructure.Helpers;
@@ -13,6 +15,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
 using System.Text;
 
 namespace Books.Api
@@ -40,6 +43,13 @@ namespace Books.Api
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateCountryCommand).Assembly));
+            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetCountryByIdQuery).Assembly));
+            //builder.Services.AddMediatR(cfg =>
+            //{
+            //    cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+            //});
+
 
             builder.Services.AddAutoMapper(
                 _ => { }, //пустий конфігураційний делегат.

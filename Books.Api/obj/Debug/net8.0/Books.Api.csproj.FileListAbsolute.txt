@@ -182,3 +182,5 @@ C:\Users\famahana\source\repos\Library\Books.Api\obj\Debug\net8.0\Books.Api.sour
 C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\MediatR.dll
+C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\MediatR.Contracts.dll

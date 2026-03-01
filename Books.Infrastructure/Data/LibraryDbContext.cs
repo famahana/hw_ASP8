@@ -15,6 +15,7 @@ namespace Books.Infrastructure.Data
         public DbSet<GenreEntity> Genres { get; set; }
         public DbSet<UserEntity> Users { get; set; }
         public DbSet<RefreshTokenEntity> refreshTokens { get; set; }
+        public DbSet<CountryEntity> Countries { get; set; }
         public LibraryDbContext(DbContextOptions<LibraryDbContext> options):base(options)
         {
 

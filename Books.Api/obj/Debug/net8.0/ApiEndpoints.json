@@ -42,6 +42,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Books.Api.Controllers.CountryController",
+    "Method": "AddCountry",
+    "RelativePath": "api/Country",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Books.Api.Controllers.CountryController",
+    "Method": "GetCountryById",
+    "RelativePath": "api/Country/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Books.Api.Controllers.GenreController",
     "Method": "GetAllGenres",
     "RelativePath": "api/Genre",
