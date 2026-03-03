@@ -14,8 +14,8 @@ namespace Books.Application.Mapping
     {
         public AuthorProfile()
         {
-            CreateMap<AuthorCreateDto, AuthorEntity>()
-                .ForMember(dest => dest.Books, opt => opt.Ignore());
+            CreateMap<AuthorCreateDto, AuthorEntity>();
+                
 
             CreateMap<AuthorEntity, AuthorReadDto>()
                 .ForMember(dest => dest.BookIds, opt => opt.MapFrom(src => src.Books.Select(b => b.Id)));

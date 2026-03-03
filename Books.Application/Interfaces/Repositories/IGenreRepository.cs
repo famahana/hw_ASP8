@@ -11,8 +11,8 @@ namespace Books.Application.Interfaces.Repositories
     {
         Task<ICollection<GenreEntity>> getAllGenreAsync();
         Task<GenreEntity> GetGenreByIdAsync(int id);
-        Task<int?> AddGenreAsync(GenreEntity genre, ICollection<int>? bookIds);
-        Task<bool?> UpdateGenreAsync(int GenreId, GenreEntity genre,ICollection<int>? bookIds);
-        Task<bool?> DeleteGenreAsync(int GenreId);
+        Task<int?> AddGenreAsync(GenreEntity genre);
+        Task<int?> UpdateGenreAsync(int GenreId, GenreEntity genre);
+        Task<int?> DeleteGenreAsync(int GenreId);
     }
 }

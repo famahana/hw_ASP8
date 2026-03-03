@@ -67,6 +67,10 @@ namespace Books.Api
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IHashHelper, HashHelper>();
             builder.Services.AddScoped<IJwtService, JwtService>();
+            builder.Services.AddScoped<IGenreRepository, GenreRepository>();
+            builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+            builder.Services.AddScoped<IAuthorService, AuthorService>();
+            builder.Services.AddScoped<IGenreService, GenreService>();
 
             ;
             builder.Services.AddControllers();

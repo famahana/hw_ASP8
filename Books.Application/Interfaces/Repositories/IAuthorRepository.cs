@@ -10,11 +10,11 @@ namespace Books.Application.Interfaces.Repositories
     public interface IAuthorRepository
     {
         Task<ICollection<AuthorEntity>> getAllAuthorAsync();
-        Task<AuthorEntity> GetAuthorByIdAsync(int id);
-        Task<int?> AddAuthorAsync(AuthorEntity author, ICollection<int>? bookIds);
-        Task<bool?> UpdateAuthorAsync(int authorId, AuthorEntity updatedAuthor, ICollection<int>? bookIds);
-        Task<bool?> DeleteAuthorAsync(int AuthorId);
-        
+        Task<AuthorEntity?> GetAuthorByIdAsync(int id);
+        Task<int?> AddAuthorAsync(AuthorEntity author);
+        Task<int?> UpdateAuthorAsync(int authorId, AuthorEntity updatedAuthor);
+        Task<int?> DeleteAuthorAsync(int AuthorId);
+
 
     }
 }
