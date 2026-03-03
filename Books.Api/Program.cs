@@ -58,7 +58,16 @@ namespace Books.Api
                 typeof(GenreProfile).Assembly,
                 typeof(AuthorProfile).Assembly
                 );
-            
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader();
+                });
+            });
+
 
             // Add services to the container.
             builder.Services.AddScoped<IBookRepository,BookRepository>();
@@ -131,6 +140,7 @@ namespace Books.Api
 
 
             var app = builder.Build();
+            app.UseCors("AllowAll");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
