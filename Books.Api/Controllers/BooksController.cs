@@ -39,5 +39,11 @@ namespace Books.Api.Controllers
             }
 
         }
+        [HttpGet("search")]
+        public async Task<IActionResult> SearchBookAsync([FromQuery]string? author, [FromQuery]string? genre, [FromQuery]int year)
+        {
+            var result = await _bookService.SearchBooksAsync(author, genre, year);
+            return Ok(result);
+        }
     }
 }

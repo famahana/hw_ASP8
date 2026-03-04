@@ -45,10 +45,13 @@ namespace Books.Application.Services
             return _mapper.Map<ICollection<BookReadDto>>(books);
         }
 
-        public Task<ICollection<BookReadDto>> GetChunkBooksAsync()
+        public async Task<ICollection<BookReadDto>> SearchBooksAsync(string? authorName, string? genreName, int? year)
         {
-            throw new NotImplementedException();
+            var books = await _repository.SearchBooksAsync(authorName, genreName, year);
+            return _mapper.Map<ICollection<BookReadDto>>(books);
         }
+
+
         //private readonly IBookRepository _repository;
         //private readonly IMapper _mapper;
         //public BookSerice(IBookRepository repository,IMapper mapper)

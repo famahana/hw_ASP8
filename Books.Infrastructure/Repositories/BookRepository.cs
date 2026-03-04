@@ -58,20 +58,27 @@ namespace Books.Infrastructure.Repositories
         {
             return await _context.Books.Include(b => b.Authors).SingleOrDefaultAsync(b => b.Id == id);
         }
-
-        public Task<ICollection<BookEntity>> GetChunkBooksAsync()
+        public async Task<ICollection<BookEntity>> SearchBooksAsync(string? authorName, string? genreName, int? year)
         {
-            throw new NotImplementedException();
+            var query = _context.Books
+                 .Include(b => b.Authors)
+                 .Include(b => b.Genre)
+                 .AsQueryable();
+            if (!string.IsNullOrEmpty(authorName))
+            {
+                
+                query = query.Where(b => b.Authors.Any(a => a.Name.Contains(authorName) || a.Surname.Contains(authorName)));
+            }
+            if (!string.IsNullOrEmpty(genreName))
+            {
+                query = query.Where(b => b.Genre.Title.Contains(genreName));
+            }
+            if (year.HasValue && year.Value > 0)
+            {
+                query = query.Where(b => b.Year == year.Value);
+            }
+            return await query.ToListAsync();
+
         }
     }
 }
-//Пагінація.Написати endpoint
-//для отримання книг порціонно (роут для пагінації)
-//в query params буде приходити 2 параметра
-//pagenum та limit
-//Видати у відповідь з даного endpoint порцію книг
-
-//500
-//?pagenum=1&limit=10
-
-//?pagenum=2&limit=10

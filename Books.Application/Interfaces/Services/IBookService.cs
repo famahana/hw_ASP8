@@ -12,7 +12,7 @@ namespace Books.Application.Interfaces.Services
         Task<int?> CreateBookAsync(BookCreateDto dto);
         Task<BookReadDto?> GetBookByIdAsync(int id);
         Task<ICollection<BookReadDto>> GetAllBooksAsync();
-        Task<ICollection<BookReadDto>> GetChunkBooksAsync();
+        Task<ICollection<BookReadDto>> SearchBooksAsync(string? authorName, string? genreName, int? year);
 
     }
 }

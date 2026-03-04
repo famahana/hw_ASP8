@@ -17,6 +17,6 @@ namespace Books.Application.Interfaces.Repositories
         Task<ICollection<BookEntity>> getAllBooksAsync();
         Task<BookEntity> GetBookByIdAsync(int id);
         Task<int?> AddBookAsync(BookEntity book, ICollection<int>? authorIds);
-        Task<ICollection<BookEntity>> GetChunkBooksAsync();
+        Task<ICollection<BookEntity>> SearchBooksAsync(string? authorName,string?genreName,int? year);
     }
 }

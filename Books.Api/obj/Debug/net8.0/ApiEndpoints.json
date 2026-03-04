@@ -121,6 +121,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Books.Api.Controllers.BooksController",
+    "Method": "SearchBookAsync",
+    "RelativePath": "api/Books/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "genre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Books.Api.Controllers.GenreController",
     "Method": "GetAllGenres",
     "RelativePath": "api/Genre",
