@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Books.Application.DTOs.AuthorDto;
 using Books.Application.DTOs.BookDTOS;
 using Books.Application.Interfaces.Repositories;
 using Books.Application.Interfaces.Services;
@@ -15,16 +16,19 @@ namespace Books.Application.Services
     {
         private readonly IBookRepository _repository;
         private readonly IMapper _mapper;
+        private readonly ICacheService _cacheService;
 
-        public BookSerice(IBookRepository repository, IMapper mapper)
+        public BookSerice(IBookRepository repository, IMapper mapper, ICacheService cacheService)
         {
             _repository = repository;
             _mapper = mapper;
+            _cacheService = cacheService;
         }
 
         // Створення книги
         public async Task<int?> CreateBookAsync(BookCreateDto dto)
         {
+            await _cacheService.RemoveAsync("Books");
             var book = _mapper.Map<BookEntity>(dto);
             return await _repository.AddBookAsync(book, dto.AuthorIds);
         }
@@ -41,34 +45,21 @@ namespace Books.Application.Services
         // Отримати всі книги
         public async Task<ICollection<BookReadDto>> GetAllBooksAsync()
         {
-            var books = await _repository.getAllBooksAsync();
-            return _mapper.Map<ICollection<BookReadDto>>(books);
+            var cache = await _cacheService.GetAsync<ICollection<BookReadDto>>("Books");
+            if(cache == null)
+            {
+                var books = await _repository.getAllBooksAsync();
+                cache = _mapper.Map<ICollection<BookReadDto>>(books);
+                await _cacheService.SetAsync("Books", cache);
+            }
+            return cache;
+            
         }
 
         public Task<ICollection<BookReadDto>> GetChunkBooksAsync()
         {
             throw new NotImplementedException();
         }
-        //private readonly IBookRepository _repository;
-        //private readonly IMapper _mapper;
-        //public BookSerice(IBookRepository repository,IMapper mapper)
-        //{
-        //    _repository = repository;
-        //    _mapper = mapper;
-        //}
-        //public async Task<int?> CreateBookAsync(BookCreateDto dto)
-        //{
-        //   throw new NotImplementedException();
-        //}
-
-        //public Task<ICollection<BookReadDto>> GetAllBooksAsync()
-        //{
-        //    throw new NotImplementedException();
-        //}
-
-        //public Task<BookReadDto?> GetBookByIdAsync(int id)
-        //{
-        //    throw new NotImplementedException();
-        //}
+       
     }
 }

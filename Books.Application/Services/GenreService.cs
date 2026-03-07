@@ -1,13 +1,14 @@
 ﻿using AutoMapper;
+using Books.Application.DTOs.BookDTOS;
 using Books.Application.DTOs.GenreDto;
 using Books.Application.Interfaces.Repositories;
 using Books.Application.Interfaces.Services;
+using Books.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Books.Domain.Entities;
 
 namespace Books.Application.Services
 {
@@ -15,13 +16,16 @@ namespace Books.Application.Services
     {
         private readonly IGenreRepository _repository;
         private readonly IMapper _mapper;
-        public GenreService(IGenreRepository repository, IMapper mapper)
+        private readonly ICacheService _cacheService;
+        public GenreService(IGenreRepository repository, IMapper mapper,ICacheService cacheService)
         {
             _repository = repository;
             _mapper = mapper;
+            _cacheService = cacheService;
         }
         public async Task<int?> AddGenreAsync(GenreCreateDto genre)
         {
+            await _cacheService.RemoveAsync("Genres");
             var genreEntity = _mapper.Map<GenreEntity>(genre);
             return await _repository.AddGenreAsync(genreEntity);
 
@@ -29,13 +33,20 @@ namespace Books.Application.Services
 
         public async Task<int?> DeleteGenreAsync(int GenreId)
         {
+            await _cacheService.RemoveAsync("Genres");
             return await _repository.DeleteGenreAsync(GenreId);
         }
 
         public async Task<ICollection<GenreReadDto>> getAllGenreAsync()
         {
-            var genres = await _repository.getAllGenreAsync();
-            return _mapper.Map<ICollection<GenreReadDto>>(genres);
+            var cache = await _cacheService.GetAsync<ICollection<GenreReadDto>>("Genres");
+            if (cache == null)
+            {
+                var genres = await _repository.getAllGenreAsync();
+                cache = _mapper.Map<ICollection<GenreReadDto>>(genres);
+                await _cacheService.SetAsync("Genres", cache);
+            }
+            return cache;
         }
 
         public async Task<GenreReadDto> GetGenreByIdAsync(int id)
@@ -46,6 +57,7 @@ namespace Books.Application.Services
 
         public async Task<int?> UpdateGenreAsync(int GenreId, GenreCreateDto genre)
         {
+            await _cacheService.RemoveAsync("Genres");
             var genreEntity = _mapper.Map<GenreEntity>(genre);
             return await _repository.UpdateGenreAsync(GenreId, genreEntity);
         }

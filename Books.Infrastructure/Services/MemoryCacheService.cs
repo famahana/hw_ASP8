@@ -1,5 +1,7 @@
 ﻿using Books.Application.Interfaces.Services;
+using Books.Infrastructure.Configuration;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,28 +10,43 @@ using System.Threading.Tasks;
 
 namespace Books.Infrastructure.Services
 {
+    
     public class MemoryCacheService:ICacheService
     {
         private readonly IMemoryCache _memoryCache;
-        public MemoryCacheService(IMemoryCache memoryCache)
+        private readonly TimeToExpireCache _timeToExpireCache;
+        public MemoryCacheService(IMemoryCache memoryCache, IOptions<TimeToExpireCache> expireOptions)
         {
-            _memoryCache = memoryCache; 
+            _memoryCache = memoryCache;
+            _timeToExpireCache = expireOptions.Value;
         }
 
-        public Task<T> GetAsync<T>(string key)
+        public Task<T?> GetAsync<T>(string key)
         {
-            _memoryCache.TryGetValue(key, out var value);
-            return Task.FromResult(value);
+            if (_memoryCache.TryGetValue(key, out T value))
+            {
+                return Task.FromResult<T?>(value);
+            }
+            return Task.FromResult<T?>(default);
         }
 
         public Task RemoveAsync(string key)
         {
-            throw new NotImplementedException();
+            _memoryCache.Remove(key);
+            return Task.CompletedTask;
         }
-
-        public Task SetAsync<T>(string key, T value, TimeSpan? exp)
+        
+        public Task SetAsync<T>(string key, T value)
         {
-            throw new NotImplementedException();
+            int time = _timeToExpireCache.Time;
+            var optionts = new MemoryCacheEntryOptions
+            {
+                
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(time)
+            };
+            _memoryCache.Set(key,value, optionts);
+            return Task.CompletedTask;
+            
         }
     }
 }

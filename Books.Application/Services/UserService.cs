@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Books.Application.DTOs.GenreDto;
 using Books.Application.DTOs.UserDto;
 using Books.Application.Interfaces.Helpers;
 using Books.Application.Interfaces.Repositories;
@@ -18,16 +19,19 @@ namespace Books.Application.Services
         private readonly IMapper _mapper;
         private readonly IJwtService _jwtService;
         private readonly IHashHelper _hashHelper;
+        private readonly ICacheService _cacheService;
 
-        public UserService(IUserRepository userRepository, IMapper mapper, IJwtService jwtService, IHashHelper hashHelper)
+        public UserService(IUserRepository userRepository, IMapper mapper, IJwtService jwtService, IHashHelper hashHelper, ICacheService cacheService)
         {
             _userRepository = userRepository;
             _mapper = mapper;
             _jwtService = jwtService;
             _hashHelper = hashHelper;
+            _cacheService = cacheService;
         }
         public async Task<string> CreateUserAsync(UserCreateDto dto)
         {
+            await _cacheService.RemoveAsync("Users");
             var entity = _mapper.Map<UserEntity>(dto);
             dto.Email = dto.Email.Trim();
             return await _userRepository.AddUserAsync(entity,dto.Password);
@@ -35,8 +39,16 @@ namespace Books.Application.Services
 
         public async Task<ICollection<UserReadDto>> GetAllUserAsync()
         {
-            var users = await _userRepository.GetAllUserAsync();
-            return _mapper.Map<ICollection<UserReadDto>>(users);
+            var cache = await _cacheService.GetAsync<ICollection<UserReadDto>>("Users");
+            if(cache == null)
+            {
+                var users = await _userRepository.GetAllUserAsync();
+                cache = _mapper.Map<ICollection<UserReadDto>>(users);
+                await _cacheService.SetAsync("Users", cache);
+            }
+            return cache;
+            
+            
         }
         public async Task<UserReadDto?> GetByEmailUserAsync(string email)
         {

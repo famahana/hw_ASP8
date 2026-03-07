@@ -15,6 +15,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using StackExchange.Redis;
 using System.Reflection;
 using System.Text;
 
@@ -33,6 +34,8 @@ namespace Books.Api
 
             builder.Services.Configure<JwtSettings>(
                 configuration.GetSection("Jwt"));
+            builder.Services.Configure<TimeToExpireCache>(
+                configuration.GetSection("TimeToExpire"));
             //      builder.Services.AddDbContext<LibraryDbContext>(options =>
             //options.UseMySql(
             //    configuration.GetConnectionString("ConnectionToMySql"),
@@ -49,7 +52,7 @@ namespace Books.Api
             //{
             //    cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
             //});
-
+            builder.Services.AddMemoryCache();
 
             builder.Services.AddAutoMapper(
                 _ => { }, //пустий конфігураційний делегат.
@@ -69,6 +72,7 @@ namespace Books.Api
             });
 
 
+
             // Add services to the container.
             builder.Services.AddScoped<IBookRepository,BookRepository>();
             builder.Services.AddScoped<IBookService, BookSerice>();
@@ -80,6 +84,14 @@ namespace Books.Api
             builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
             builder.Services.AddScoped<IAuthorService, AuthorService>();
             builder.Services.AddScoped<IGenreService, GenreService>();
+            //builder.Services.AddScoped<ICacheService, MemoryCacheService>();
+            builder.Services.AddScoped<ICacheService, RedisCachingService>();
+            builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+            {
+                var config = builder.Configuration.GetConnectionString("Redis");
+                return ConnectionMultiplexer.Connect(config);
+            })
+
 
             ;
             builder.Services.AddControllers();

@@ -10,6 +10,6 @@ namespace Books.Application.DTOs.AuthorDto
     {
         public string Name { get; set; } = string.Empty;
         public string Surname { get; set; } = string.Empty;
-        public ICollection<int>? BookIds { get; set; }
+        
     }
 }

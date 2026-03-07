@@ -15,27 +15,41 @@ namespace Books.Application.Services
     {
         private readonly IAuthorRepository _repository;
         private readonly IMapper _mapper;
-        public AuthorService(IAuthorRepository repository, IMapper mapper)
+        private readonly ICacheService _cacheService;
+        public AuthorService(IAuthorRepository repository, IMapper mapper, ICacheService cacheService)
         {
             _repository = repository;
             _mapper = mapper;
+            _cacheService = cacheService;
         }
 
         public async Task<int?> CreateAuthorAsync(AuthorCreateDto author)
         {
+
+            await _cacheService.RemoveAsync("Authors");
             var authorEntity = _mapper.Map<AuthorEntity>(author);
             return await _repository.AddAuthorAsync(authorEntity);
         }
 
         public async Task<int?> DeleteAuthorAsync(int AuthorId)
         {
+            await _cacheService.RemoveAsync("Authors");
             return await _repository.DeleteAuthorAsync(AuthorId);
         }
 
         public async Task<ICollection<AuthorReadDto>> getAllAuthorAsync()
         {
-            var authors = await _repository.getAllAuthorAsync();
-            return _mapper.Map<ICollection<AuthorReadDto>>(authors);
+            var cache = await _cacheService.GetAsync<ICollection<AuthorReadDto>>("Authors");
+            if(cache == null)
+            {
+                var authors = await _repository.getAllAuthorAsync();
+                cache = _mapper.Map<ICollection<AuthorReadDto>>(authors);
+                await _cacheService.SetAsync("Authors", cache);
+               
+            }
+            return cache;
+
+           
         }
 
         public async Task<AuthorReadDto?> GetAuthorByIdAsync(int id)
@@ -45,8 +59,10 @@ namespace Books.Application.Services
 
         public async Task<int?> UpdateAuthorAsync(AuthorCreateDto author, int id)
         {
+            await _cacheService.RemoveAsync("Authors");
             var authorEntity = _mapper.Map<AuthorEntity>(author);
             return await _repository.UpdateAuthorAsync(id, authorEntity);
         }
     }
 }
+//2) Час життя кеша винести у appsetting.json та читати звідти
