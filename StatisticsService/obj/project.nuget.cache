@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "z2udNA2gp8k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\famahana\\source\\repos\\Library\\StatisticsService\\StatisticsService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\famahana\\.nuget\\packages\\rabbitmq.client\\7.2.1\\rabbitmq.client.7.2.1.nupkg.sha512",
+    "C:\\Users\\famahana\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\famahana\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

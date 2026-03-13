@@ -4,12 +4,14 @@ using Books.Application.Interfaces.Services;
 using Books.Application.Mapping;
 using Books.Application.Query.Country;
 using Books.Application.Services;
+using Books.Application.Validators;
 using Books.Infrastructure.Command.Country;
 using Books.Infrastructure.Configuration;
 using Books.Infrastructure.Data;
 using Books.Infrastructure.Helpers;
 using Books.Infrastructure.Repositories;
 using Books.Infrastructure.Services;
+using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -18,6 +20,7 @@ using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
 using System.Reflection;
 using System.Text;
+using FluentValidation.AspNetCore;
 
 namespace Books.Api
 {
@@ -36,6 +39,9 @@ namespace Books.Api
                 configuration.GetSection("Jwt"));
             builder.Services.Configure<TimeToExpireCache>(
                 configuration.GetSection("TimeToExpire"));
+            builder.Services.Configure<RabbitMqSettings>(
+                builder.Configuration.GetSection("RabbitMq")
+                );
             //      builder.Services.AddDbContext<LibraryDbContext>(options =>
             //options.UseMySql(
             //    configuration.GetConnectionString("ConnectionToMySql"),
@@ -86,14 +92,17 @@ namespace Books.Api
             builder.Services.AddScoped<IGenreService, GenreService>();
             //builder.Services.AddScoped<ICacheService, MemoryCacheService>();
             builder.Services.AddScoped<ICacheService, RedisCachingService>();
+            builder.Services.AddScoped<IQueueService, RabbitMqService>();
+            builder.Services.AddValidatorsFromAssemblyContaining<BookValidator>();
+
+            // ¬микаЇмо авто-вал≥дац≥ю
+            builder.Services.AddFluentValidationAutoValidation();
             builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
             {
                 var config = builder.Configuration.GetConnectionString("Redis");
                 return ConnectionMultiplexer.Connect(config);
-            })
-
-
-            ;
+            });
+            
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

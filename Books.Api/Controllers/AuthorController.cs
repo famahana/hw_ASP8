@@ -5,13 +5,14 @@ namespace Books.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class AuthorController(IAuthorService _authorService):ControllerBase
+    public class AuthorController(IAuthorService _authorService,IQueueService _queue):ControllerBase
     {
         [HttpGet]
-        public async Task<IActionResult> GetAllAuthors()
+        public async Task<IActionResult> GetAllAuthors(CancellationToken cancellation)
         {
-            var authors = await _authorService.getAllAuthorAsync();
+            var authors = await _authorService.getAllAuthorAsync(cancellation);
             return Ok(authors);
+
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetAuthorById([FromRoute] int id)
@@ -20,9 +21,11 @@ namespace Books.Api.Controllers
             return Ok(author);
         }
         [HttpPost]
-        public async Task<IActionResult> CreateAuthor([FromBody] AuthorCreateDto authorDto)
+        public async Task<IActionResult> CreateAuthor([FromBody] AuthorCreateDto authorDto,CancellationToken cancellation)
         {
-            int? id = await _authorService.CreateAuthorAsync(authorDto);
+
+            await _queue.PublishAsync("Authors",authorDto);
+            int? id = await _authorService.CreateAuthorAsync(authorDto, cancellation);
             if (id != null)
             {
                 return CreatedAtAction(nameof(GetAuthorById), new { id }, id);

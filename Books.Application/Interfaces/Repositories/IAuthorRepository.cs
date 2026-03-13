@@ -9,9 +9,9 @@ namespace Books.Application.Interfaces.Repositories
 {
     public interface IAuthorRepository
     {
-        Task<ICollection<AuthorEntity>> getAllAuthorAsync();
+        Task<ICollection<AuthorEntity>> getAllAuthorAsync(CancellationToken cancellation);
         Task<AuthorEntity?> GetAuthorByIdAsync(int id);
-        Task<int?> AddAuthorAsync(AuthorEntity author);
+        Task<int?> AddAuthorAsync(AuthorEntity author,CancellationToken cancellation);
         Task<int?> UpdateAuthorAsync(int authorId, AuthorEntity updatedAuthor);
         Task<int?> DeleteAuthorAsync(int AuthorId);
 

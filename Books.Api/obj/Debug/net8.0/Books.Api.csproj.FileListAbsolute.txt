@@ -187,3 +187,7 @@ C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\MediatR.Contra
 C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\StackExchange.Redis.dll
 C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\famahana\source\repos\Library\Books.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

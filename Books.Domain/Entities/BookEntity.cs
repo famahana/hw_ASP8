@@ -13,6 +13,7 @@ namespace Books.Domain.Entities
 
         public int Year { get; set; }
         public int GenreId { get; set; }
+        public int Price { get; set; }
         public GenreEntity? Genre { get; set; }
         public ICollection<AuthorEntity>? Authors { get; set; }
         public DateTime? CreatedAt { get; }

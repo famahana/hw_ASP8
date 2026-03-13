@@ -12,5 +12,6 @@ namespace Books.Application.DTOs.BookDTOS
         public int Year { get; set; }
         public ICollection<int>? AuthorIds { get; set; }
         public int GenreId { get; set; }
+        public int Price { get; set; }
     }
 }

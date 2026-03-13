@@ -9,7 +9,7 @@ namespace Books.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class BooksController(IBookService _bookService) : ControllerBase
+    public class BooksController(IBookService _bookService, IQueueService _queue) : ControllerBase
     {
         [HttpGet]
         public async Task<IActionResult> GetAll()
@@ -24,11 +24,11 @@ namespace Books.Api.Controllers
             var book = await _bookService.GetBookByIdAsync(id);
             return Ok(book);    
         }
-        [Authorize(Roles ="Admin")]
+        //[Authorize(Roles ="Admin")]
         [HttpPost]
         public async Task<IActionResult> AddBook([FromBody] BookCreateDto bookDto)
         {
-
+            await _queue.PublishAsync("Books", bookDto);
             int? id = await _bookService.CreateBookAsync(bookDto);
             if(id != null)
             {

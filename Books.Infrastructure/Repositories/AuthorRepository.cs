@@ -17,11 +17,11 @@ namespace Books.Infrastructure.Repositories
         {
             _libraryDbContext = context;
         }
-        public async Task<int?> AddAuthorAsync(AuthorEntity author)
+        public async Task<int?> AddAuthorAsync(AuthorEntity author, CancellationToken cancellation)
         {
 
-            await _libraryDbContext.Authors.AddAsync(author);
-            await _libraryDbContext.SaveChangesAsync();
+            await _libraryDbContext.Authors.AddAsync(author,cancellation);
+            await _libraryDbContext.SaveChangesAsync(cancellation);
             return author.Id;
 
         }
@@ -38,9 +38,9 @@ namespace Books.Infrastructure.Repositories
             return author.Id;
         }
 
-        public async Task<ICollection<AuthorEntity>> getAllAuthorAsync()
+        public async Task<ICollection<AuthorEntity>> getAllAuthorAsync(CancellationToken cancellation)
         {
-            return await _libraryDbContext.Authors.ToListAsync();
+            return await _libraryDbContext.Authors.ToListAsync(cancellation);
 
         }
 

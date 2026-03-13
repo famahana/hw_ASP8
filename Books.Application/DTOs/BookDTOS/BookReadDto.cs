@@ -14,6 +14,7 @@ namespace Books.Application.DTOs.BookDTOS
         public int Year { get; set; }
         public int GenreId { get; set; }
         public ICollection<int>? AuthorIds { get; set; }
+        public int Price { get; set; }
         public BookReadDto()
         {
 
@@ -25,6 +26,7 @@ namespace Books.Application.DTOs.BookDTOS
             Year = book.Year;
             AuthorIds = book.Authors == null? [] :book.Authors.Select(author => author.Id).ToList();
             GenreId = book.GenreId;
+            Price = book.Price;
         }
 
     }
