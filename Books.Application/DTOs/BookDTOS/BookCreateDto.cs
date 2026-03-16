@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,6 @@ namespace Books.Application.DTOs.BookDTOS
         public ICollection<int>? AuthorIds { get; set; }
         public int GenreId { get; set; }
         public int Price { get; set; }
+        public IFormFile ImageUrl { get; set; }
     }
 }

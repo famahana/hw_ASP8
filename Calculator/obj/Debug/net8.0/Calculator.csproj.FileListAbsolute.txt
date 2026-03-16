@@ -1,0 +1,12 @@
+C:\Users\famahana\source\repos\Library\Calculator\bin\Debug\net8.0\Calculator.deps.json
+C:\Users\famahana\source\repos\Library\Calculator\bin\Debug\net8.0\Calculator.dll
+C:\Users\famahana\source\repos\Library\Calculator\bin\Debug\net8.0\Calculator.pdb
+C:\Users\famahana\source\repos\Library\Calculator\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\famahana\source\repos\Library\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\famahana\source\repos\Library\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+C:\Users\famahana\source\repos\Library\Calculator\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\famahana\source\repos\Library\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
+C:\Users\famahana\source\repos\Library\Calculator\obj\Debug\net8.0\Calculator.dll
+C:\Users\famahana\source\repos\Library\Calculator\obj\Debug\net8.0\refint\Calculator.dll
+C:\Users\famahana\source\repos\Library\Calculator\obj\Debug\net8.0\Calculator.pdb
+C:\Users\famahana\source\repos\Library\Calculator\obj\Debug\net8.0\ref\Calculator.dll

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Books.Application.DTOs.AuthorDto;
 using Books.Application.DTOs.BookDTOS;
+using Books.Application.Interfaces.Helpers;
 using Books.Application.Interfaces.Repositories;
 using Books.Application.Interfaces.Services;
 using Books.Domain.Entities;
@@ -17,19 +18,23 @@ namespace Books.Application.Services
         private readonly IBookRepository _repository;
         private readonly IMapper _mapper;
         private readonly ICacheService _cacheService;
+        private readonly IImageStorage _imageStorage;
 
-        public BookSerice(IBookRepository repository, IMapper mapper, ICacheService cacheService)
+        public BookSerice(IBookRepository repository, IMapper mapper, ICacheService cacheService,IImageStorage imageStorage)
         {
             _repository = repository;
             _mapper = mapper;
             _cacheService = cacheService;
+            _imageStorage = imageStorage;
         }
 
         // Створення книги
         public async Task<int?> CreateBookAsync(BookCreateDto dto)
         {
             await _cacheService.RemoveAsync("Books");
+            var imagePath = await _imageStorage.SaveImageAsync(dto.ImageUrl);
             var book = _mapper.Map<BookEntity>(dto);
+            book.ImageUrl = imagePath;
             return await _repository.AddBookAsync(book, dto.AuthorIds);
         }
 

@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Books.Api.HandlerExceptions;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
+
 
 namespace Books.Api.Controllers
 {
@@ -21,6 +23,17 @@ namespace Books.Api.Controllers
         {
             return Ok();
 
+        }
+        [HttpGet("{id}")]
+        public IActionResult GetData([FromRoute]int id)
+        {
+
+            if(id > 5)
+            {
+                return Ok();
+            }
+
+            throw new NotFoundException("fail");
         }
 
     }

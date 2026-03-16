@@ -40,13 +40,13 @@ namespace Books.Infrastructure.Repositories
 
         public async Task<ICollection<AuthorEntity>> getAllAuthorAsync(CancellationToken cancellation)
         {
-            return await _libraryDbContext.Authors.ToListAsync(cancellation);
+            return await _libraryDbContext.Authors.Include(a => a.Books).ToListAsync(cancellation);
 
         }
 
         public async Task<AuthorEntity> GetAuthorByIdAsync(int id)
         {
-            return await _libraryDbContext.Authors.FirstOrDefaultAsync(a => a.Id == id);
+            return await _libraryDbContext.Authors.Include(a => a.Books).FirstOrDefaultAsync(a => a.Id == id);
 
         }
 

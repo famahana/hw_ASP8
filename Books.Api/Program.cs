@@ -1,3 +1,4 @@
+using Books.Api.HandlerExceptions;
 using Books.Application.Interfaces.Helpers;
 using Books.Application.Interfaces.Repositories;
 using Books.Application.Interfaces.Services;
@@ -12,6 +13,7 @@ using Books.Infrastructure.Helpers;
 using Books.Infrastructure.Repositories;
 using Books.Infrastructure.Services;
 using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -20,7 +22,6 @@ using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
 using System.Reflection;
 using System.Text;
-using FluentValidation.AspNetCore;
 
 namespace Books.Api
 {
@@ -93,7 +94,11 @@ namespace Books.Api
             //builder.Services.AddScoped<ICacheService, MemoryCacheService>();
             builder.Services.AddScoped<ICacheService, RedisCachingService>();
             builder.Services.AddScoped<IQueueService, RabbitMqService>();
+            builder.Services.AddScoped<IImageStorage, ImageStorage>();
             builder.Services.AddValidatorsFromAssemblyContaining<BookValidator>();
+            builder.Services.AddProblemDetails();
+            builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+
 
             // ¬микаЇмо авто-вал≥дац≥ю
             builder.Services.AddFluentValidationAutoValidation();
@@ -161,6 +166,7 @@ namespace Books.Api
 
 
             var app = builder.Build();
+            app.UseExceptionHandler();
             app.UseCors("AllowAll");
 
             // Configure the HTTP request pipeline.
@@ -174,7 +180,7 @@ namespace Books.Api
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            
 
             app.MapControllers();
 

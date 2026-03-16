@@ -26,7 +26,7 @@ namespace Books.Api.Controllers
         }
         //[Authorize(Roles ="Admin")]
         [HttpPost]
-        public async Task<IActionResult> AddBook([FromBody] BookCreateDto bookDto)
+        public async Task<IActionResult> AddBook([FromForm] BookCreateDto bookDto)
         {
             await _queue.PublishAsync("Books", bookDto);
             int? id = await _bookService.CreateBookAsync(bookDto);
