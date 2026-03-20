@@ -14,6 +14,9 @@ namespace Books.Application.DTOs.UserDto
         public string Role { get; set; }
         public DateTime CreatedAt { get; set; }
         public bool IsActive { get; set; }
+        public string CityName { get; set; }
+
+        
         
     }
 }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "En7G6gUUVWU=",
+  "dgSpecHash": "1iU3fxU5QLs=",
   "success": true,
   "projectFilePath": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Books.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\famahana\\.nuget\\packages\\automapper\\16.0.0\\automapper.16.0.0.nupkg.sha512",
+    "C:\\Users\\famahana\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
@@ -18,18 +18,5 @@
     "C:\\Users\\famahana\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "Package 'AutoMapper' 16.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "projectPath": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Books.Application.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Application\\Books.Application.csproj",
-      "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

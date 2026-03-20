@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Books.Infrastructure.Migrations
 {
     [DbContext(typeof(LibraryDbContext))]
-    [Migration("20260316102651_AddedImageUrl")]
-    partial class AddedImageUrl
+    [Migration("20260320145145_NameMigr")]
+    partial class NameMigr
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -97,6 +97,28 @@ namespace Books.Infrastructure.Migrations
                     b.ToTable("Books");
                 });
 
+            modelBuilder.Entity("Books.Domain.Entities.CityEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CountryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CountryId");
+
+                    b.ToTable("City");
+                });
+
             modelBuilder.Entity("Books.Domain.Entities.CountryEntity", b =>
                 {
                     b.Property<int>("Id")
@@ -171,6 +193,9 @@ namespace Books.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<int?>("CityId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
@@ -189,6 +214,8 @@ namespace Books.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CityId");
 
                     b.HasIndex("Email")
                         .IsUnique();
@@ -222,6 +249,17 @@ namespace Books.Infrastructure.Migrations
                     b.Navigation("Genre");
                 });
 
+            modelBuilder.Entity("Books.Domain.Entities.CityEntity", b =>
+                {
+                    b.HasOne("Books.Domain.Entities.CountryEntity", "Country")
+                        .WithMany("Cities")
+                        .HasForeignKey("CountryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Country");
+                });
+
             modelBuilder.Entity("Books.Domain.Entities.RefreshTokenEntity", b =>
                 {
                     b.HasOne("Books.Domain.Entities.UserEntity", "User")
@@ -231,6 +269,25 @@ namespace Books.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Books.Domain.Entities.UserEntity", b =>
+                {
+                    b.HasOne("Books.Domain.Entities.CityEntity", "City")
+                        .WithMany("Users")
+                        .HasForeignKey("CityId");
+
+                    b.Navigation("City");
+                });
+
+            modelBuilder.Entity("Books.Domain.Entities.CityEntity", b =>
+                {
+                    b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("Books.Domain.Entities.CountryEntity", b =>
+                {
+                    b.Navigation("Cities");
                 });
 
             modelBuilder.Entity("Books.Domain.Entities.GenreEntity", b =>

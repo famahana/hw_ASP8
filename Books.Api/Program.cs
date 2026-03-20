@@ -6,10 +6,12 @@ using Books.Application.Mapping;
 using Books.Application.Query.Country;
 using Books.Application.Services;
 using Books.Application.Validators;
+using Books.Infrastructure.Command.City;
 using Books.Infrastructure.Command.Country;
 using Books.Infrastructure.Configuration;
 using Books.Infrastructure.Data;
 using Books.Infrastructure.Helpers;
+using Books.Infrastructure.Query.City;
 using Books.Infrastructure.Repositories;
 using Books.Infrastructure.Services;
 using FluentValidation;
@@ -55,6 +57,10 @@ namespace Books.Api
             });
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateCountryCommand).Assembly));
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetCountryByIdQuery).Assembly));
+            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetAllCitiesQuery).Assembly));
+            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateCityCommand).Assembly));
+            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(UpdateCityCommand).Assembly));
+            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(DeleteCityCommand).Assembly));
             //builder.Services.AddMediatR(cfg =>
             //{
             //    cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());

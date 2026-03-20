@@ -25,6 +25,8 @@ namespace Books.Domain.Entities
 
         public bool IsActive { get; set; } = true;
         public ICollection<RefreshTokenEntity> RefreshTokens { get; set; }
+        public int? CityId { get; set; }
+        public CityEntity City { get; set; }
 
     }
 }

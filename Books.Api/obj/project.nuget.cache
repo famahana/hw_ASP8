@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4D9iDrKhGvE=",
+  "dgSpecHash": "nK+KUEP+oFI=",
   "success": true,
   "projectFilePath": "C:\\Users\\famahana\\source\\repos\\Library\\Books.Api\\Books.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\famahana\\.nuget\\packages\\automapper\\16.0.0\\automapper.16.0.0.nupkg.sha512",
+    "C:\\Users\\famahana\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\famahana\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
