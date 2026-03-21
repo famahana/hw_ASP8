@@ -14,8 +14,10 @@ namespace Books.Application.Mapping
     {
         public GenreProfile()
         {
-            CreateMap<GenreCreateDto, GenreEntity>();
-              
+            CreateMap<GenreCreateDto, GenreEntity>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore())
+                .ForMember(dest => dest.Books, opt => opt.Ignore());
+
 
             CreateMap<GenreEntity, GenreReadDto>()
                 .ForMember(dest => dest.BookIds, opt => opt.MapFrom(src => src.Books.Select(b => b.Id)));
