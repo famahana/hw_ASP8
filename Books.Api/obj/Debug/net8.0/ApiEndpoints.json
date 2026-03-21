@@ -210,6 +210,16 @@
   },
   {
     "ContainingType": "Books.Api.Controllers.CountryController",
+    "Method": "GetAllCountries",
+    "RelativePath": "api/Country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Books.Api.Controllers.CountryController",
     "Method": "AddCountry",
     "RelativePath": "api/Country",
     "HttpMethod": "POST",

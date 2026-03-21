@@ -12,6 +12,7 @@ using Books.Infrastructure.Configuration;
 using Books.Infrastructure.Data;
 using Books.Infrastructure.Helpers;
 using Books.Infrastructure.Query.City;
+using Books.Infrastructure.Query.Country;
 using Books.Infrastructure.Repositories;
 using Books.Infrastructure.Services;
 using FluentValidation;
@@ -57,6 +58,7 @@ namespace Books.Api
             });
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateCountryCommand).Assembly));
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetCountryByIdQuery).Assembly));
+            builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetAllCountryQuery).Assembly));
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetAllCitiesQuery).Assembly));
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateCityCommand).Assembly));
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(UpdateCityCommand).Assembly));
