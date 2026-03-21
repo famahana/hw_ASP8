@@ -101,4 +101,29 @@ public class GenreServiceTest
         // Перевіряємо, що кеш було встановлено (TimesOnce перевірка, щоб метод був викликаний 1 раз)
         _cacheMock.Verify(c => c.SetAsync("Genres", It.IsAny<ICollection<GenreReadDto>>()), Times.Once);
     }
+    [Fact]
+    public async Task GetGenreByIdAsync_ShouldReturnGenre_WhenExists()
+    {
+        
+        var genreId = 1;
+
+        var genreEntity = new GenreEntity
+        {
+            Id = genreId,
+            Title = "Action"
+        };
+
+        _genreRepoMock.Setup(r => r.GetGenreByIdAsync(genreId))
+                      .ReturnsAsync(genreEntity);
+
+      
+        var result = await _service.GetGenreByIdAsync(genreId);
+
+       
+        Assert.NotNull(result);
+        Assert.Equal(genreId, result.Id);
+        Assert.Equal("Action", result.Title);
+
+        _genreRepoMock.Verify(r => r.GetGenreByIdAsync(genreId), Times.Once);
+    }
 }
