@@ -46,6 +46,26 @@ namespace Books.Api
             builder.Services.Configure<RabbitMqSettings>(
                 builder.Configuration.GetSection("RabbitMq")
                 );
+            builder.Services.Configure<CacheSettings>(
+                builder.Configuration.GetSection("CacheSettings"));
+            var cacheSettings = builder.Configuration
+                .GetSection("CacheSettings")
+                .Get<CacheSettings>();
+            if (cacheSettings.Type == "Memory")
+            {
+                builder.Services.AddMemoryCache();
+                builder.Services.AddScoped<ICacheService, MemoryCacheService>();
+            }
+            else if (cacheSettings.Type == "Redis")
+            {
+                builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+                {
+                    var config = builder.Configuration.GetConnectionString("Redis");
+                    return ConnectionMultiplexer.Connect(config);
+                });
+
+                builder.Services.AddScoped<ICacheService, RedisCachingService>();
+            }
             //      builder.Services.AddDbContext<LibraryDbContext>(options =>
             //options.UseMySql(
             //    configuration.GetConnectionString("ConnectionToMySql"),
@@ -99,8 +119,6 @@ namespace Books.Api
             builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
             builder.Services.AddScoped<IAuthorService, AuthorService>();
             builder.Services.AddScoped<IGenreService, GenreService>();
-            //builder.Services.AddScoped<ICacheService, MemoryCacheService>();
-            builder.Services.AddScoped<ICacheService, RedisCachingService>();
             builder.Services.AddScoped<IQueueService, RabbitMqService>();
             builder.Services.AddScoped<IImageStorage, ImageStorage>();
             builder.Services.AddValidatorsFromAssemblyContaining<BookValidator>();
@@ -110,11 +128,11 @@ namespace Books.Api
 
             // ¬микаЇмо авто-вал≥дац≥ю
             builder.Services.AddFluentValidationAutoValidation();
-            builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
-            {
-                var config = builder.Configuration.GetConnectionString("Redis");
-                return ConnectionMultiplexer.Connect(config);
-            });
+            //builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+            //{
+            //    var config = builder.Configuration.GetConnectionString("Redis");
+            //    return ConnectionMultiplexer.Connect(config);
+            //});
             
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

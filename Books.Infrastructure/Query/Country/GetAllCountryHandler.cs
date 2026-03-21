@@ -28,8 +28,8 @@ namespace Books.Infrastructure.Query.Country
             if (cache == null)
             {
                 var countries = await _context.Countries.ToListAsync(cancellationToken);
-                await _cacheService.SetAsync("Country", countries);
-                return countries;
+                cache = countries;
+                await _cacheService.SetAsync("Country", cache);
 
             }
             return cache;
