@@ -1,4 +1,5 @@
 ﻿using Books.Domain.Entities;
+using Books.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -37,6 +38,15 @@ namespace Books.Infrastructure.Data
                 modelBuilder.Entity<BookEntity>()
                     .Property(b => b.CreatedAt)
                     .HasDefaultValueSql("SYSDATETIME()");
+                modelBuilder.Entity<UserEntity>()
+                    .Property(u => u.Role)
+                    .HasConversion<int>() 
+                    .IsRequired();
+                modelBuilder.Entity<UserEntity>()
+                    .ToTable(t => t.HasCheckConstraint(
+                         "CK_User_Role",
+                         $"Role IN ({string.Join(",", Enum.GetValues(typeof(UserRole)).Cast<int>())})"
+                         ));
             }
             modelBuilder.Entity<UserEntity>().HasIndex(u => u.Email).IsUnique();
             //modelBuilder.Entity<BookEntity>()
